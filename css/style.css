@@ -1,0 +1,44 @@
+kbd{
+	font-size: 30px;
+	font-family: Arvo;
+	margin:8px auto;
+}
+.sound{
+	font-family: Roboto;
+	color: #FFC600;
+	margin: -10px auto;
+}
+.keys{
+	width: 100vw;
+	height: 100vh;
+	
+	background-image: url(../res/pictures/drum.jpg);
+	background-size: cover; 
+	display:flex;
+	align-content: center;
+	justify-content: center;
+	
+}
+.key{
+	display:flex;
+	flex-direction: column;
+
+	width: 70px;
+	height : 70px;
+	margin-top: 50%;
+	margin-left: 10px;
+
+	border: 3px solid black;
+	border-radius: 5px;
+	color:#FFF;
+	background: #10061F;
+	opacity: 0.75;
+	transition: all 0.07s;
+
+	
+}
+.playing{
+	transform:scale(1.1);
+	border-color: #FFC600;
+	box-shadow: 0 0 10px #CFA314;
+}
